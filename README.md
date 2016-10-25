@@ -3,13 +3,13 @@ How to setup an osu build environment on linux
 
 A lot of people like to develop on linux, and some people want to contribute to the development of the [new open source osu! engine](http://github.com/ppy/osu)
 
-So for those people, here is a quick guide on how to geta development environment up and running on linux.
+So for those people, here is a quick guide on how to get a development environment up and running on linux.
 
 ## Using the monodevelop IDE (Easier)
 
 Requirements:
-*monodevelop
-*git
+* monodevelop
+* git
 
 First clone the main directory, ensuring that all subdirectories are initialised too.
 ```
@@ -20,12 +20,12 @@ Open the osu.sln file, found in the root directoy of the repo, in monodevelop
 
 Done!
 
-## NO IDE (for people who don't like IDEs)
+## No IDE (for people who don't like IDEs)
 
 Requirements:
-*git
-*mono >=4.0
-*nuget
+* git
+* mono >=4.0
+* nuget
 
 First clone the main directory, ensuring that all subdirectories are initialised too.
 ```
