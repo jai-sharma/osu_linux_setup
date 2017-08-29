@@ -25,7 +25,7 @@ Done!
 Requirements:
 * git
 * mono >=4.0
-* nuget
+* nuget >= 2.12
 
 First clone the main directory, ensuring that all subdirectories are initialised too.
 ```
