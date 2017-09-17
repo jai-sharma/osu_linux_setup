@@ -48,3 +48,10 @@ mono osu/osu.Desktop/bin/Debug/osu\!.exe
 ```
 
 Done!
+
+## Troubleshooting
+
+During development, custom nuget sources may be specifid leading to Nuget not being able to source these packages. To resolve this, specify the `Nuget.Config` file in the top level directory when calling `nuget restore`.
+ ```
+ nuget restore -configfile Nuget.config
+ ```
