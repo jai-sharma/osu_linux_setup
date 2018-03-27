@@ -24,7 +24,7 @@ Done!
 
 Requirements:
 * git
-* mono >=4.0
+* mono >=4.9
 * nuget >= 2.12
 
 First clone the main directory, ensuring that all subdirectories are initialised too.
@@ -37,9 +37,9 @@ Restore the required nuget packages for this project using the osu.sln file in t
 nuget restore osu/osu.sln
 ```
 
-Compile the project using mono xbuild.
+Compile the project using mono. Newver versions of mono will have replaced `xbuild` with the  `msbuild` command.
 ```
-xbuild osu/osu.sln
+<xbuild|msbuild> osu/osu.sln
 ```
 
 Run the output executable
