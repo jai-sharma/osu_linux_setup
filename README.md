@@ -11,12 +11,15 @@ Requirements:
 * monodevelop
 * git
 
+**Ensure the mono version that is packaged with your monodevelop install is reasonably up to date (>= mono 4.9)**
+
 First clone the main directory, ensuring that all subdirectories are initialised too.
 ```
 git clone --recursive https://github.com/ppy/osu
 ```
 
-Open the osu.sln file, found in the root directoy of the repo, in monodevelop
+Open the osu.sln file, found in the root directoy of the repo, in monodevelop.
+You can now compile and run the program from the monodevelop IDE.
 
 Done!
 
